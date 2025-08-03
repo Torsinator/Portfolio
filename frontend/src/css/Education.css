@@ -1,0 +1,26 @@
+.education-tile {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.education-photo {
+  width: 10%;
+  height: 10%;
+}
+
+.education-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.education-desc p {
+  font-size: 1rem;
+}

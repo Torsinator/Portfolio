@@ -55,7 +55,8 @@
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: 300px;
   gap: 1.5rem;
   padding: 1rem;
   width: 100%;
