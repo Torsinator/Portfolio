@@ -21,6 +21,6 @@
   object-fit: cover;
 }
 
-.education-desc p {
-  font-size: 1rem;
+p, li {
+  padding-left: 20px;
 }

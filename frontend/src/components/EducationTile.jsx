@@ -8,6 +8,9 @@ function EducationTile({ education }) {
 
         <div className="education-desc">
             <p>{education.description}</p>
+            {education.acolades.map((item, index) => (
+                <li key={index}>{item}</li> // Use a unique key for each list item
+            ))}
         </div>
     </div>
 }
