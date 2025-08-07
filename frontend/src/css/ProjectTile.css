@@ -1,7 +1,7 @@
-.project-card {
+.project-tile {
   position: relative;
   border-radius: 8px;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #1a1a1a;
   transition: transform 0.2s;
   height: 100%;
@@ -9,13 +9,12 @@
   flex-direction: column;
 }
 
-.project-card:hover {
+.project-tile:hover {
   transform: translateY(-5px);
 }
 
 .project-photo {
   position: relative;
-  aspect-ratio: 2/3;
   width: 100%;
   height: 100%;
 }
@@ -26,7 +25,7 @@
   object-fit: scale-down;
 }
 
-.project-overlay {
+/* .project-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -43,7 +42,7 @@
   flex-direction: column;
   justify-content: flex-end;
   padding: 1rem;
-}
+} */
 
 .project-card:hover .project-overlay {
   opacity: 1;
