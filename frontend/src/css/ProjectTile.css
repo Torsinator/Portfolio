@@ -1,8 +1,6 @@
 .project-tile {
   position: relative;
   border-radius: 8px;
-  /* overflow: hidden; */
-  background-color: #1a1a1a;
   transition: transform 0.2s;
   height: 100%;
   display: flex;
@@ -120,5 +118,13 @@
     width: 32px;
     height: 32px;
     font-size: 1.2rem;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .project-info h3 {
+    font-size: 1rem;
+    margin: 0;
+
   }
 }
