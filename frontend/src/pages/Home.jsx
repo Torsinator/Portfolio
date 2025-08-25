@@ -13,7 +13,7 @@ function Home() {
     };
 
     const linkedinRedirect = () => {
-        window.location.href = 'https://github.com/Torsinator';
+        window.location.href = 'https://www.linkedin.com/in/tors-webster-24819a250';
     };
 
     const handleEmailClick = () => {
@@ -23,7 +23,7 @@ function Home() {
     const education_tiles = [{ photo: uonImg, description: "Studying Bachelor of Computer Systems Engineering (Honours) / Bachelor of Computer Science.", acolades: ["Weighted Average Mark of 91.63%. GPA of 6.9 out of 7.", "2025 Boeing Engineering, IT and Computer Systems Academic Excellence Scholarship Recipient.", "Admission to the College Commendation List for all semesters of study."] }]
     const social_tiles = [
         { photo: github, title: "github", handleClick: githubRedirect },
-        // { photo: LinkedIn, title: "linkedIn" },
+        { photo: LinkedIn, title: "linkedIn", handleClick: linkedinRedirect },
         { photo: Gmail, title: "gmail", handleClick: handleEmailClick }]
 
     return <div className="homepage">

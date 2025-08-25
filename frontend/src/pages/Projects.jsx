@@ -16,7 +16,7 @@ function Projects()
         {id: 1, title: "Thesis - Data Driven Control With Reinforcement Learning", date: "2025", photo: Rocket},
         {id: 3, title: "IOT Bedside Sensor System", date: "2025", photo: IOT},
         {id: 4, title: "Over Voltage and Current Protection PCB", date: "2025", photo: Protection_CCT},
-        {id: 5, title: "STM-32 Medical Signal Filtering and Digital Display PCB", date: "2025", photo: Medical_PCB},
+        {id: 5, title: "STM32 Medical Signal Filtering and Digital Display PCB", date: "2025", photo: Medical_PCB},
         {id: 6, title: "Smart Fridge Convolutional Neural Network Food Classifier", date: "2024", photo: Smart_Fridge},
         {id: 8, title: "Self Driving Car Robot", date: "2022", photo: Robot},
         {id: 7, title: "Networked Multiplayer Python Poker App", date: "2020", photo: Poker},
